@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quem Sou Eu - Beleza em Arte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #D7D0BE;
+      color: #333;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #660F26;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #D7D0BE;
+    }
+
+    main {
+      flex: 1;
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #f5f1e8;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      color: #660F26;
+    }
+
+    main h1 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .profile-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+      justify-content: center;
+    }
+
+    .profile-photo {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #660F26;
+      box-shadow: 0 0 15px rgba(102, 15, 38, 0.5);
+    }
+
+    .profile-text {
+      max-width: 550px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .profile-text strong {
+      color: #660F26;
+    }
+
+    footer {
+      background-color: #fafafa;
+      color: #777;
+      font-size: 14px;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 650px) {
+      .profile-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .profile-text {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Ativo 9@3x.png" alt="Logo Beleza em Arte" />
+    </div>
+    <nav>
+      <a href="siteisadora.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Quem Sou Eu</h1>
+    <section class="profile-section">
+      <img src="quemsoueu.jpeg" alt="Foto de [Seu Nome]" class="profile-photo" />
+      <div class="profile-text">
+        <p>
+         Mel Choueri atua há mais de 8 anos no mundo da maquiagem, com mais de 20 cursos profissionalizantes, incluindo uma formação internacional com Samer Khouzami, sua grande inspiração. Hoje, se destaca como maquiadora e educadora, especializada em visagismo, maquiagem blindada e atendimento personalizado, sempre valorizando a beleza e a autoestima de cada cliente.
+        </p>
+        <p>
+          Com dedicação e amor pelo que faço, ensino práticas detalhadas, segredos profissionais e tendências atuais,
+          ajudando você a brilhar em qualquer ocasião, seja no dia a dia ou em eventos especiais.
+        </p>
+        <p>
+          Obrigada por visitar meu espaço! Estou aqui para acompanhar sua jornada na arte da maquiagem.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Beleza em Arte. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

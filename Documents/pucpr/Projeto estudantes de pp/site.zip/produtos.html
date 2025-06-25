@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produtos - Beleza em Arte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #D7D0BE;
+      color: #333;
+    }
+
+    header {
+      background-color: #660F26;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #D7D0BE;
+    }
+
+    main {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #660F26;
+      margin-bottom: 40px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .product-title {
+      font-size: 20px;
+      color: #660F26;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .product-description {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .product-price {
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #fafafa;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      color: #777;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Ativo 9@3x.png" alt="Logo Beleza em Arte" />
+    </div>
+    <nav>
+      <a href="siteisadora.html">Início</a>
+      <a href="quemsoueu.html">Quem Sou Eu</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nossos Produtos</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="manualdemaq.jpeg" alt="Manual de Maquiagem Profissional" />
+        <div class="product-title">Manual de Maquiagem Profissional</div>
+        <div class="product-description">Guia completo com técnicas, segredos e passo a passo para você dominar a maquiagem.</div>
+        <div class="product-price">R$ 79,90</div>
+      </div>
+
+      <div class="product-card">
+        <img src="dossie.jpeg" alt="Dossiê Visagista Exclusivo" />
+        <div class="product-title">Dossiê Visagista Exclusivo</div>
+        <div class="product-description">Entenda como realçar traços únicos e harmonizar a maquiagem com personalidade.</div>
+        <div class="product-price">R$ 49,90</div>
+      </div>
+
+      <div class="product-card">
+        <img src="completo.jpeg" alt="Kit Completo: Manual + Dossiê" />
+        <div class="product-title">Kit Completo: Manual + Dossiê</div>
+        <div class="product-description">Pacote com os dois materiais por um preço especial!</div>
+        <div class="product-price">R$ 119,90</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Beleza em Arte. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

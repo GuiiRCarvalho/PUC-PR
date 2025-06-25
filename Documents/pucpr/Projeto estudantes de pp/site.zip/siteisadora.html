@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beleza em Arte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #D7D0BE;
+      color: #333;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1; /* empurra o footer para o final */
+    }
+
+    header {
+      background-color: #660F26;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #eee;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #660F26;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background-color: #D7D0BE;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #660F26;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    .product-highlight {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 17px;
+    }
+
+    .buttons {
+      margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .button {
+      background-color: #660F26;
+      color: white;
+      border: none;
+      padding: 14px 30px;
+      font-size: 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #660F26;
+    }
+
+    .button.secondary {
+      background-color: transparent;
+      color: #660F26;
+      border: 2px solid #660F26;
+    }
+
+    .button.secondary:hover {
+      background-color: #660F26;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #fafafa;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="Ativo 9@3x.png" alt="Logo Maquiagem">
+    </div>
+    <nav>
+      <a href="quemsoueu.html">Quem Sou Eu</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Transforme sua beleza em Arte</h1>
+      <p>Um guia completo e didático que reúne técnicas, <br>
+         dicas e segredos profissionais para quem deseja <br>
+         aprender ou aprimorar a arte da maquiagem.</p>
+      <p class="product-highlight">Manual de Maquiagem Profissional +<br> Dossiê Visagista Exclusivo</p>
+
+      <div class="buttons">
+        <a href="#" class="button">ADQUIRA JÁ</a>
+        <a href="#" class="button secondary">Entre em contato!</a>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer>
+    &copy; 2025 Beleza em Arte. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
