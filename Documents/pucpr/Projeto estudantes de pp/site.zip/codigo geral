@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beleza em Arte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #D7D0BE;
+      color: #333;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1; /* empurra o footer para o final */
+    }
+
+    header {
+      background-color: #660F26;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #eee;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #660F26;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background-color: #D7D0BE;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #660F26;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    .product-highlight {
+      font-weight: bold;
+      margin-top: 15px;
+      font-size: 17px;
+    }
+
+    .buttons {
+      margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .button {
+      background-color: #660F26;
+      color: white;
+      border: none;
+      padding: 14px 30px;
+      font-size: 16px;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #660F26;
+    }
+
+    .button.secondary {
+      background-color: transparent;
+      color: #660F26;
+      border: 2px solid #660F26;
+    }
+
+    .button.secondary:hover {
+      background-color: #660F26;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #fafafa;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="Ativo 9@3x.png" alt="Logo Maquiagem">
+    </div>
+    <nav>
+      <a href="quemsoueu.html">Quem Sou Eu</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Transforme sua beleza em Arte</h1>
+      <p>Um guia completo e didático que reúne técnicas, <br>
+         dicas e segredos profissionais para quem deseja <br>
+         aprender ou aprimorar a arte da maquiagem.</p>
+      <p class="product-highlight">Manual de Maquiagem Profissional +<br> Dossiê Visagista Exclusivo</p>
+
+      <div class="buttons">
+        <a href="#" class="button">ADQUIRA JÁ</a>
+        <a href="#" class="button secondary">Entre em contato!</a>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer>
+    &copy; 2025 Beleza em Arte. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
+
+
+  ----- QUEM SOU EU
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quem Sou Eu - Beleza em Arte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #D7D0BE;
+      color: #333;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #660F26;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #D7D0BE;
+    }
+
+    main {
+      flex: 1;
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #f5f1e8;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      color: #660F26;
+    }
+
+    main h1 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .profile-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+      justify-content: center;
+    }
+
+    .profile-photo {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #660F26;
+      box-shadow: 0 0 15px rgba(102, 15, 38, 0.5);
+    }
+
+    .profile-text {
+      max-width: 550px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .profile-text strong {
+      color: #660F26;
+    }
+
+    footer {
+      background-color: #fafafa;
+      color: #777;
+      font-size: 14px;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 650px) {
+      .profile-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .profile-text {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Ativo 9@3x.png" alt="Logo Beleza em Arte" />
+    </div>
+    <nav>
+      <a href="siteisadora.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Quem Sou Eu</h1>
+    <section class="profile-section">
+      <img src="quemsoueu.jpeg" alt="Foto de [Seu Nome]" class="profile-photo" />
+      <div class="profile-text">
+        <p>
+         Mel Choueri atua há mais de 8 anos no mundo da maquiagem, com mais de 20 cursos profissionalizantes, incluindo uma formação internacional com Samer Khouzami, sua grande inspiração. Hoje, se destaca como maquiadora e educadora, especializada em visagismo, maquiagem blindada e atendimento personalizado, sempre valorizando a beleza e a autoestima de cada cliente.
+        </p>
+        <p>
+          Com dedicação e amor pelo que faço, ensino práticas detalhadas, segredos profissionais e tendências atuais,
+          ajudando você a brilhar em qualquer ocasião, seja no dia a dia ou em eventos especiais.
+        </p>
+        <p>
+          Obrigada por visitar meu espaço! Estou aqui para acompanhar sua jornada na arte da maquiagem.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Beleza em Arte. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
+
+
+    ---PRODUTOS
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produtos - Beleza em Arte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #D7D0BE;
+      color: #333;
+    }
+
+    header {
+      background-color: #660F26;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #D7D0BE;
+    }
+
+    main {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #660F26;
+      margin-bottom: 40px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .product-title {
+      font-size: 20px;
+      color: #660F26;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .product-description {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .product-price {
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #fafafa;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      color: #777;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Ativo 9@3x.png" alt="Logo Beleza em Arte" />
+    </div>
+    <nav>
+      <a href="siteisadora.html">Início</a>
+      <a href="quemsoueu.html">Quem Sou Eu</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Nossos Produtos</h1>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="manualdemaq.jpeg" alt="Manual de Maquiagem Profissional" />
+        <div class="product-title">Manual de Maquiagem Profissional</div>
+        <div class="product-description">Guia completo com técnicas, segredos e passo a passo para você dominar a maquiagem.</div>
+        <div class="product-price">R$ 79,90</div>
+      </div>
+
+      <div class="product-card">
+        <img src="dossie.jpeg" alt="Dossiê Visagista Exclusivo" />
+        <div class="product-title">Dossiê Visagista Exclusivo</div>
+        <div class="product-description">Entenda como realçar traços únicos e harmonizar a maquiagem com personalidade.</div>
+        <div class="product-price">R$ 49,90</div>
+      </div>
+
+      <div class="product-card">
+        <img src="completo.jpeg" alt="Kit Completo: Manual + Dossiê" />
+        <div class="product-title">Kit Completo: Manual + Dossiê</div>
+        <div class="product-description">Pacote com os dois materiais por um preço especial!</div>
+        <div class="product-price">R$ 119,90</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Beleza em Arte. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
+
+    --- CONTATO
+
+    <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato - Beleza em Arte</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #D7D0BE;
+      color: #333;
+    }
+
+    header {
+      background-color: #660F26;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-container img {
+      width: 100px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #D7D0BE;
+    }
+
+    main {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: #660F26;
+      margin-bottom: 40px;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #660F26;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    button {
+      background-color: #660F26;
+      color: white;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #4a0c1d;
+    }
+
+    .info {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 16px;
+      color: #333;
+    }
+
+    footer {
+      background-color: #fafafa;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      color: #777;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="Ativo 9@3x.png" alt="Logo Beleza em Arte" />
+    </div>
+    <nav>
+      <a href="siteisadora.html">Início</a>
+      <a href="quemsoueu.html">Quem Sou Eu</a>
+      <a href="produtos.html">Produtos</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Entre em Contato</h1>
+
+    <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="info">
+      <p>Você também pode entrar em contato pelo WhatsApp:</p>
+      <p><strong>(41) 99911-0331</strong></p>
+      <p>Ou pelo e-mail: <strong>melchoueri@me.com</strong></p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Beleza em Arte. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
